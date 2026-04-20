@@ -1,0 +1,13 @@
+name: balanceador-linha
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas>=2.0
+  - numpy>=1.24
+  - networkx>=3.0
+  - pip:
+      - streamlit>=1.30.0
+      - plotly>=5.17.0
