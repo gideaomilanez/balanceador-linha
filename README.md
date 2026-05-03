@@ -1,4 +1,4 @@
-# Balanceador de Linha de Produção
+# OptiLine -- Balanceador de Linha de Produção
 
 Aplicativo em Streamlit para balanceamento de linhas de montagem manuais de modelo único, implementando as três heurísticas clássicas apresentadas em Groover (2010, Cap. 15).
 
