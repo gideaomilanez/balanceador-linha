@@ -580,7 +580,7 @@ method_labels = {
     "Método dos Pesos Posicionais (RPW)":    "Pesos Posicionais (RPW)",
 }
 run = st.button(
-    f"🚀 Balancear linha — {method_labels[method]}",
+    f"Balancear linha — {method_labels[method]}",
     type="primary", use_container_width=True
 )
 
