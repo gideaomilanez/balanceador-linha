@@ -30,7 +30,7 @@ Requisitos: Python 3.11+ e `conda` (ou `pip`).
 ### Com conda
 
 ```bash
-git clone https://github.com/SEU_USUARIO/balanceador-linha.git
+git clone https://github.com/gideaomilanez/balanceador-linha.git
 cd balanceador-linha
 conda env create -f environment.yml
 conda activate balanceador-linha
@@ -40,7 +40,7 @@ streamlit run app.py
 ### Com pip
 
 ```bash
-git clone https://github.com/SEU_USUARIO/balanceador-linha.git
+git clone https://github.com/gideaomilanez/balanceador-linha.git
 cd balanceador-linha
 pip install -r requirements.txt
 streamlit run app.py
