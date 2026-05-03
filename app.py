@@ -1,5 +1,5 @@
 """
-Balanceador de Linha de Produção — Streamlit
+Optiline— Balanceador de Linha de Produção
 =============================================
 Três heurísticas: Regra do Maior Candidato, Kilbridge & Wester, Pesos Posicionais (RPW).
 Entrada: tarefas, tempos, precedências e Takt Time.
@@ -515,7 +515,7 @@ if "data" not in st.session_state:
 # LAYOUT PRINCIPAL
 # =============================================================================
 
-st.title("⚙️ Balanceador de Linha de Produção")
+st.title("⚙️ OptiLine — Balanceador de Linha de Produção")
 st.caption(
     "Preencha as tarefas, tempos e precedências. Selecione o método na barra "
     "lateral e clique em **Balancear linha**."
